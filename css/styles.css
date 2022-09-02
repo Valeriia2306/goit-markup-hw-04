@@ -75,7 +75,7 @@ ul {
 /* Header */
 
 .page-header {
-  color: var(--white-color-text);
+  color: var(--primary-text-color);
   border-bottom: 1px solid #ececec;
 }
 
@@ -143,10 +143,14 @@ ul {
   align-items: center;
   margin-left: auto;
 }
+
 .contacts .item + .item {
   margin-left: 50px;
 }
 .contacts-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -157,6 +161,10 @@ ul {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+
+.icon-header {
+  fill: currentColor;
 }
 
 /* Hero section */
