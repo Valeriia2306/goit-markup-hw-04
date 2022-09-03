@@ -347,6 +347,7 @@ ul {
 
   text-align: center;
 }
+/* links to social networks */
 .socials {
   display: flex;
   justify-content: center;
@@ -375,7 +376,7 @@ ul {
 .socials-icon {
   fill: currentColor;
 }
-
+/* Clients */
 .clients {
   display: flex;
   align-items: center;
@@ -385,7 +386,6 @@ ul {
 }
 
 .clients-link {
-  background-color: var(--background-color-second-white);
   color: var(--primary-icon-color);
 
   display: inline-flex;
