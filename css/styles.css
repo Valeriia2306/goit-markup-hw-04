@@ -121,7 +121,6 @@ ul {
 .nav-list .item:last-child {
   margin-right: 0;
 }
-
 .nav-link {
   color: var(--title-text-color);
   text-decoration: none;
