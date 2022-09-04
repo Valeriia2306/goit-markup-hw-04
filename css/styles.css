@@ -341,11 +341,11 @@ ul {
 }
 .team-profession {
   color: var(--primary-text-color);
-  font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-
+  margin-bottom: 16px;
   text-align: center;
+  margin-bottom: 16px;
 }
 /* links to social networks */
 .socials {
@@ -353,7 +353,6 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: 30px;
 }
 
 .socials-link {
@@ -382,7 +381,6 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
 .clients-link {
@@ -514,6 +512,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
+  padding: 6px 22px;
   border-radius: 4px;
   border: none;
 }
